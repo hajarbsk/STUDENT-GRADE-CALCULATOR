@@ -23,7 +23,7 @@ public class Calculator {
             grade = "F";
         }
         if(grade=="F"){
-                   JOptionPane.showMessageDialog(null, "Total des notes: " + totalMarks + "\nPourcentage moyen: " + averagePercentage + "%\nGrade: " + grade + "\n\nSorry,you're failed");
+                   JOptionPane.showMessageDialog(null, "Total des notes: " + totalMarks + "\nPourcentage moyen: " + averagePercentage + "%\nGrade: " + grade + "\n\nFailed");
  
         }else{
                  JOptionPane.showMessageDialog(null, "Total des notes: " + totalMarks + "\nPourcentage moyen: " + averagePercentage + "%\nGrade: " + grade + "\n\nCongrats!");
